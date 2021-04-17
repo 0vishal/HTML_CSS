@@ -1,0 +1,86 @@
+<!doctype html>
+<head>
+    <link rel="shortcut icon" href="Assets/fav.png">
+        <title>
+            welcome to BridgeLabz</title>
+    </head>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+    background-color:whitesmoke;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #eeede4;
+    order: 3;
+  }
+  #main > aside {
+    background: rgb(212, 203, 159);
+    order: 2;
+  }
+  header, footer {
+    text-align: center; 
+    background: rgb(243, 247, 43);
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  p {
+    font-size: large;
+    font-style: inherit;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  a:link {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+}
+ 
+</style>
+
+<body>
+  <header> <img src="Assets/logojpg.jpg" alt="The BridgeLabz to employment through a lab work." height="100" width="100">
+  </header>  
+  <div id="main">
+
+    <article><p>BridgeLabz Vision is to be a platform for seasoned professionals to develop their ideas
+        with senior engineers who aspire to be co-founders.
+        They in turn use the fresh engineers to develop the Apps who becomes qualified developer for a job with tech
+        companies. </p></article>
+
+    <nav><p> To know about us ,<br>
+         visit <a href="https://www.bridgelabz.com/">BridgeLabz</a> to learn more about to our mission
+        i.e Employeblity to all</p></nav>
+
+    <aside><p> At BridgeLabz , we re techie community</p>
+    <ul>
+        <li>Technologies</li>
+        <li>Thinkers</li>
+        <li>Builders</li>
+    </ul></aside>
+
+  </div>
+  <footer>
+      Links <br>
+      <a href="https://www.bridgelabz.com/">BridgeLabz</a></footer>
+</body>
